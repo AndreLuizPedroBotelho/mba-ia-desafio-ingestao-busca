@@ -19,7 +19,6 @@ Este projeto realiza a ingestão de documentos PDF e permite buscas inteligentes
 3. Configure as variáveis de ambiente em um arquivo `.env`:
    ```env
    PDF_PATH=./document.pdf
-   GOOGLE_MODEL=models/embedding-001
    LLM_API_KEY=<sua-chave-google>
    PG_VECTOR_COLLECTION_NAME=docs
    DATABASE_URL=postgresql+psycopg://user:password@localhost:5432/dbname

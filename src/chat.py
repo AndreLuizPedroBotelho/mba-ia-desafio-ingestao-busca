@@ -22,7 +22,7 @@ def main():
             return
 
         embeddings = GoogleGenerativeAIEmbeddings(
-            model=os.getenv("GOOGLE_MODEL", "models/embedding-001"),
+            model="models/embedding-001",
             google_api_key=os.getenv("LLM_API_KEY"),
         )
 
