@@ -39,7 +39,7 @@ def search_prompt():
     )
 
     model = init_chat_model(
-        model="gemini-2.5-flash",
+        model="gemini-2.5-flash-lite",
         model_provider="google_genai",
         google_api_key=os.getenv("LLM_API_KEY"),
     )
