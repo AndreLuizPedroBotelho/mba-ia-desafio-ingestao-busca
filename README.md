@@ -18,7 +18,7 @@ Permite processar um PDF, indexar seu conteúdo e realizar perguntas em linguage
 - Python 3.10+
 - Conta Google Generative AI (API Key)
 - PostgreSQL com extensão PGVector
-- Docker (opcional, recomendado para banco de dados)
+- Docker
 
 
 ## Instalação
@@ -64,7 +64,7 @@ Permite processar um PDF, indexar seu conteúdo e realizar perguntas em linguage
    - O arquivo PDF deve estar no caminho especificado em `PDF_PATH`.
    - Se não definir `LLM_MODEL` ou `LLM_MODEL_EMBEDDING`, serão usados os valores padrão.
 
-6. (Opcional) Suba um banco PostgreSQL+PGVector com Docker:
+6. Suba um banco PostgreSQL+PGVector com Docker:
    ```bash
    docker-compose up -d
    ```
